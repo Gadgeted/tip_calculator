@@ -21,12 +21,12 @@ class ResultScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "The Total Bill is: \$${totalBill.toStringAsFixed(2)}",
+                "The Total Bill is: KES ${totalBill.toStringAsFixed(2)}",
                 style: TextStyle(fontSize: 20),
               ),
               SizedBox(height: 10),
               Text(
-                "Per person Share is: \$${perPersonBill.toStringAsFixed(2)}",
+                "Per person Share is: KES ${perPersonBill.toStringAsFixed(2)}",
                 style: TextStyle(fontSize: 20),
               ),
             ],
